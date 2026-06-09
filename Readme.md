@@ -11,9 +11,9 @@ Vídeo de apresentação
 
 Estrutura do projeto
 TDE1/
-├── parte1/   Jantar dos Filósofos
-├── parte2/   Threads e Semáforos
-└── parte3/   Deadlock
+    parte1/   Jantar dos Filósofos
+    parte2/   Threads e Semáforos
+    parte3/   Deadlock
 Cada pasta tem seu próprio README com o detalhamento daquela parte.
 
 Relatório técnico
@@ -21,7 +21,7 @@ O detalhamento completo (logs, pseudocódigo e explicações) está no README de
 
 Parte 1 — Jantar dos Filósofos
 Cinco filósofos disputam garfos compartilhados. Na versão ingênua, cada um pega o
-garfo da esquerda e depois o da direita; se todos pegarem o esquerdo ao mesmo
+garfo da esquerda e depoigits o da direita; se todos pegarem o esquerdo ao mesmo
 tempo, formam um ciclo de espera e travam. A correção usa hierarquia de recursos
 (pegar sempre o garfo de menor índice primeiro), quebrando a espera circular.
 
